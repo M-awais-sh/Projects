@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Digit Recognition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>AI Handwritten Digit Recognition</h1>
+        <p>Draw a digit (0-9) and let the CNN predict it.</p>
+    </div>
+
+    <div class="content">
+
+        <div class="canvas-card">
+            <canvas id="canvas" width="280" height="280"></canvas>
+
+            <div class="buttons">
+                <button class="clear-btn" onclick="clearCanvas()">
+                    Clear
+                </button>
+
+                <button class="predict-btn" onclick="predictDigit()">
+                    Predict
+                </button>
+            </div>
+        </div>
+
+        <div class="result-card">
+            <h2>Prediction</h2>
+
+            <div id="digit">-</div>
+
+            <div id="confidence">
+                Confidence: --
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="signature">
+    Developed by DevAwais | AI/ML Engineer
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
