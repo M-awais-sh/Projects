@@ -1,3 +1,7 @@
+**Handwritten digit recognition using Neural Network**	
+
+
+
 Step by Step procedure to run this project :
 
 
@@ -25,12 +29,4 @@ Step by Step procedure to run this project :
 **--> No need to train model (Don't run Model\_training file)**
 
 **--> Model accuracy 98+**
-
-
-
-
-
-
-
-
 
